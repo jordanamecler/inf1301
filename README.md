@@ -1,3 +1,3 @@
-# inf1301
+# INF1301
 
 ## Members of the Group
