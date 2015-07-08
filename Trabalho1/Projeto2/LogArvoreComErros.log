@@ -1,0 +1,58 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-1
+!!!      Script de teste:     TesteArvoreComErros.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein, Jordana Mecler e Leonardo Wajnsztok 
+!!!    0  Linha:     3  // Data:      19/03/2015 
+!!!    0  Linha:     4  // Propósito: Testa gerar erros no script. 
+!!!    0  Linha:     5  // 
+    7  == Gerar erro ao ir para a direita sem existir árvore
+>>>    1  Linha:     8  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+   10  == Gerar erro ao ir para a esquerda sem existir árvore
+>>>    2  Linha:    11  Retorno errado ao ir para esquerda. Deveria ser: 0  É: 4
+   13  == Gerar erro ao tentar obter valor sem existir árvore
+>>>    3  Linha:    14  Retorno errado ao obter valor corrente. Deveria ser: 0  É: 4
+   16  == Verificar comando recuperar
+>>>    4  Linha:    17  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    3  Linha:    18  Falha esperada foi recuperada. 
+   20  == Verificar ObterValorCorr relativo a árvore inexistente
+   23  == Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+>>>    4  Linha:    24  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 4
+<<<    3  Linha:    25  Falha esperada foi recuperada. 
+   27  == Criar árvore
+   31  == Gerar erro ao tentar obter valor com árvore vazia
+>>>    4  Linha:    32  Retorno errado ao obter valor corrente. Deveria ser: 0  É: 5
+   34  == Gerar erro ao tentar ir para a direita com árvore vazia
+>>>    5  Linha:    35  Retorno errado ao ir para direita. Deveria ser: 0  É: 5
+   37  == Gerar erro ao tentar ir para no pai com árvore vazia
+>>>    6  Linha:    38  Retorno errado ao ir para pai. Deveria ser: 0  É: 5
+   40  == Inserir à direita
+   43  == Obter o valor inserido
+   46  == Verificar controle de obter o valor inserido errado
+>>>    7  Linha:    47  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'a'
+<<<    6  Linha:    48  Falha esperada foi recuperada. 
+   50  == Gerar erro ao tentar ir para no pai e esperar que já esteja na raiz
+   53  == Inserir à esquerda
+   56  == Obter o valor inserido
+   59  == Ir para no pai, tem
+>>>    7  Linha:    60  Retorno errado ao ir para pai. Deveria ser: 6  É: 0
+   62  == Obter valor corrente
+   65  == Inserir à direita
+   69  == Ir para no pai
+   73  == Ir para no pai
+   77  == Ir para no esquerda tem
+   81  == Ir para no direita tem
+   86  == Destroi a arvore
+!!!    7  Linha:    92  // fim 
+
+!!! Número de linhas lidas:          92
+!!! Número de casos de teste:        24
+!!! Número comandos corretos:        22
+!!! Número de falhas encontradas:     7
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

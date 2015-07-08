@@ -1,0 +1,8 @@
+Data   Horas Trabalhadas    Tipo Tarefa                Descrição da Tarefa Realizada
+
+11/03   1.5                 estudar                    leitura do enunciado e download do arcabouço
+11/03   0.5                 estudar                    compilação de exemplos
+13/03   1.0                 codificar módulos          fazer alterações necessárias nos módulos
+18/03   2                   codificar módulos          terminar as alterações necessárias nos módulos
+19/03   1                   redigir script de teste    script de teste da costura
+19/03   1                   realizar testes            realização de testes e correção de problemas

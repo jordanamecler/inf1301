@@ -1,0 +1,65 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-1
+!!!      Script de teste:     TesteArvoreComErrosRecuperados.script
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein, Jordana Mecler e Leonardo Wajnsztok 
+!!!    0  Linha:     3  // Data:      19/03/2015 
+!!!    0  Linha:     4  // Propósito: Testa recuperação de erros no script. 
+!!!    0  Linha:     5  // 
+    7  == Gerar erro ao ir para a direita sem existir árvore
+>>>    1  Linha:     8  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:     9  Falha esperada foi recuperada. 
+   11  == Gerar erro ao ir para a esquerda sem existir árvore
+>>>    1  Linha:    12  Retorno errado ao ir para esquerda. Deveria ser: 0  É: 4
+<<<    0  Linha:    13  Falha esperada foi recuperada. 
+   15  == Gerar erro ao tentar obter valor sem existir árvore
+>>>    1  Linha:    16  Retorno errado ao obter valor corrente. Deveria ser: 0  É: 4
+<<<    0  Linha:    17  Falha esperada foi recuperada. 
+   19  == Verificar comando recuperar
+>>>    1  Linha:    20  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:    21  Falha esperada foi recuperada. 
+   23  == Verificar ObterValorCorr relativo a árvore inexistente
+   26  == Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+>>>    1  Linha:    27  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 4
+<<<    0  Linha:    28  Falha esperada foi recuperada. 
+   30  == Criar árvore
+   34  == Gerar erro ao tentar obter valor com árvore vazia
+>>>    1  Linha:    35  Retorno errado ao obter valor corrente. Deveria ser: 0  É: 5
+<<<    0  Linha:    36  Falha esperada foi recuperada. 
+   38  == Gerar erro ao tentar ir para a direita com árvore vazia
+>>>    1  Linha:    39  Retorno errado ao ir para direita. Deveria ser: 0  É: 5
+<<<    0  Linha:    40  Falha esperada foi recuperada. 
+   42  == Gerar erro ao tentar ir para no pai com árvore vazia
+>>>    1  Linha:    43  Retorno errado ao ir para pai. Deveria ser: 0  É: 5
+<<<    0  Linha:    44  Falha esperada foi recuperada. 
+   46  == Inserir à direita
+   49  == Obter o valor inserido
+   52  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:    53  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'a'
+<<<    0  Linha:    54  Falha esperada foi recuperada. 
+   56  == Ir para no pai, nao tem
+   59  == Inserir à esquerda
+   62  == Obter o valor inserido
+   65  == Gerar erro ao tentar ir para no pai e esperar que já esteja na raiz
+>>>    1  Linha:    66  Retorno errado ao ir para pai. Deveria ser: 6  É: 0
+<<<    0  Linha:    67  Falha esperada foi recuperada. 
+   69  == Obter valor corrente
+   72  == Inserir à direita
+   76  == Ir para no pai
+   80  == Ir para no pai
+   84  == Ir para no esquerda tem
+   88  == Ir para no direita tem
+   93  == Destroi a arvore
+!!!    0  Linha:    99  // fim 
+
+!!! Número de linhas lidas:          99
+!!! Número de casos de teste:        24
+!!! Número comandos corretos:        22
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

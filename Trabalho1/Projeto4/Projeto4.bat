@@ -1,0 +1,1 @@
+TRAB1-2      /s"TesteArvoreCompleto.script"        /l"LogArvoreCompleto.log"

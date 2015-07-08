@@ -1,0 +1,157 @@
+// Script:    TesteCompleto.script
+// Autores:   Eric Grinstein, Jordana Mecler, Leonardo Wajnsztok
+// Data:      18/03/2015
+// Propósito: Testar Completamente o módulo árvore.
+
+
+
+
+
+== Ir para nó pai em árvore inexistente
+
+=irpai	4
+
+== Ir para nó esquerdo em árvore inexistente
+
+=iresq	4
+
+== Ir para nó direito em árvore inexistente
+
+=irdir	4
+
+== Obter valor corrente em árvore inexistente
+
+=obter		'!'		4
+
+== Costurar folhas em árvore inexistente
+
+=costurar		4
+
+
+
+
+
+
+
+
+== Criar árvore
+=criar		0		0
+
+
+
+
+
+
+
+
+== Ir para nó pai em árvore vazia 
+=irpai		5
+
+== Ir para nó esquerdo em árvore vazia 
+=iresq		5
+
+== Ir para nó direito em árvore vazia 
+=irdir		5
+
+== Obter valor corrente em árvore vazia
+=obter		'!'		5
+
+== Costurar folhas em árvore vazia
+=costurar		5 
+
+
+
+
+
+
+== Inserir nó a esquerda
+=insesq		'a'		'g'		0
+
+== Ir para nó pai em nó raiz
+=irpai		6
+
+== Ir para nó esquerdo em folha
+=iresq		7
+
+== Ir para nó direito em folha
+=irdir		7
+
+
+
+
+
+
+
+== Inserir nó a esquerda
+=insesq    	'0'		'e'		0
+
+== Ir para nó pai
+=irpai		0
+
+== Inserir nó a esquerda com nó esquerdo ocupado
+=insesq		'c'		'9'		3
+
+== Inserir nó a direita
+=insdir		'c'		'f'		0
+
+== Ir para pai 
+=irpai		0
+
+== Inserir nó a direita com corrente não folha
+=insdir		'c'		'0'		3
+
+== Obter valor
+=obter		'a'		0
+
+== Ir para esquerda
+=iresq		0
+
+== Inserir nó a esquerda
+=insesq		'L'		'm'		0
+
+== Ir para pai
+=irpai		0	
+
+== Inserir nó a direita
+=insdir		'A'		'n'		0
+
+
+
+
+== Ir para raiz e depois para a direita
+=irpai		0
+=irpai		0
+=irdir		0
+
+
+== Inserir nó a direita e depois a esquerda
+=insdir		'V'		'd'		0
+=irpai		0
+=insesq		'F'		'a'		0
+
+== Inserir nó a direita e depois a esquerda
+=insdir         'F'             'l'             0
+=irpai		0
+=insesq         'O'		'q'             0
+
+== Ir para pai
+=irpai          0
+
+== Ir para pai
+=irpai          0
+
+== Ir para direita
+=irdir          0
+
+== Inserir nó a direita e depois a esquerda
+=insdir         'V'             'o'             0
+=irpai          0
+=insesq         'I'             'p'             0
+
+== Costurar folhas
+=costurar		0
+
+== Destruir Árvore
+=destruir
+
+// fim

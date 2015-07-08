@@ -1,0 +1,71 @@
+Autores:	Eric Grinstein
+		Jordana Mecler
+		Leonardo Wajnsztok
+
+Data:		23/03/2015
+
+
+
+Descrição do Programa:
+
+	O objetivo do programa é a realização de funções que utilizam a estrutura de árvore, tais como
+criação, inserção, costura, impressão, entre outras. Os scripts realizam testes automatizados
+dos módulos implementados, a fim de evitar erros. Os logs armazenam o resultado dos testes
+realizados pelos scripts.
+	O executável TRAB1-1.EXE está relacionado aos arquivos da pasta simples dos projetos que apenas
+foram compilados para compreensão do funcionamento do arcabouço.
+	O executável TRAB1-2.EXE está relacionado aos arquivos modificados com a costura e impressão
+das folhas das árvores.
+	Os arquivos Projeto'x'.bat servem para rodar ambos os executáveis com os respectivos scripts e logs.
+
+
+Arquivos Fonte:
+
+1.Módulos de implementação:	ARVORE.C
+				TESTARV.C
+
+2.Módulos de definição:		ARVORE.H
+				LERPARM.H
+				GENERICO.H
+				TST_ESPC.H
+
+3.Arcabouço de Teste:		ArcaboucoTeste.lib
+
+
+Arquivos de Script:		TesteArvoreComErros.script
+				TesteArvoreComErrosRecuperados.script
+				TesteArvoreCompleto.script
+
+
+Arquivos de Log:		LogArvoreComErros.log
+				LogArvoreComErrosRecuperados.log
+				LogArvoreCompleto.log
+
+
+Arquivos Executáveis:		TRAB1-1.EXE
+				TRAB1-2.EXE
+
+
+Arquivos Bat:			Projeto1.bat
+				Projeto2.bat
+				Projeto3.bat
+				Projeto4.bat
+
+
+Arquivos de Relatório:		RELATORIO-Eric Grinstein.txt
+				RELATORIO-Jordana Mecler.txt
+				RELATORIO-Leonardo Wajnsztok.txt
+
+
+Arquivo Leiame:			LEIAME.TXT
+
+
+Modo de uso:
+
+	Pelo projeto Projeto'x'.bat:	Execute o Projeto'x'.bat e os arquivos log serão gerados na devida pasta.
+
+	Pelo CMD:			Vá até a pasta do projeto onde está o arquivo executável e copie seu endereço.
+					Digite os comandos do CMD: "cd 'endereço'"
+							   "'executável'.exe /s'script.script' /l'log.log'"
+					Você verá na tela do CMD o resultado impresso da costura. O log também estará
+					na devida pasta.

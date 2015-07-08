@@ -1,0 +1,55 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB1-2
+!!!      Script de teste:     TesteArvoreCompleto.script
+
+!!!    0  Linha:     1  // Script:    TesteCompleto.script 
+!!!    0  Linha:     2  // Autores:   Eric Grinstein, Jordana Mecler, Leonardo Wajnsztok 
+!!!    0  Linha:     3  // Data:      18/03/2015 
+!!!    0  Linha:     4  // Propósito: Testar Completamente o módulo árvore. 
+   10  == Ir para nó pai em árvore inexistente
+   14  == Ir para nó esquerdo em árvore inexistente
+   18  == Ir para nó direito em árvore inexistente
+   22  == Obter valor corrente em árvore inexistente
+   26  == Costurar folhas em árvore inexistente
+   37  == Criar árvore
+   47  == Ir para nó pai em árvore vazia
+   50  == Ir para nó esquerdo em árvore vazia
+   53  == Ir para nó direito em árvore vazia
+   56  == Obter valor corrente em árvore vazia
+   59  == Costurar folhas em árvore vazia
+   67  == Inserir nó a esquerda
+   70  == Ir para nó pai em nó raiz
+   73  == Ir para nó esquerdo em folha
+   76  == Ir para nó direito em folha
+   85  == Inserir nó a esquerda
+   88  == Ir para nó pai
+   91  == Inserir nó a esquerda com nó esquerdo ocupado
+   94  == Inserir nó a direita
+   97  == Ir para pai
+  100  == Inserir nó a direita com corrente não folha
+  103  == Obter valor
+  106  == Ir para esquerda
+  109  == Inserir nó a esquerda
+  112  == Ir para pai
+  115  == Inserir nó a direita
+  121  == Ir para raiz e depois para a direita
+  127  == Inserir nó a direita e depois a esquerda
+  132  == Inserir nó a direita e depois a esquerda
+  137  == Ir para pai
+  140  == Ir para pai
+  143  == Ir para direita
+  146  == Inserir nó a direita e depois a esquerda
+  151  == Costurar folhas
+  154  == Destruir Árvore
+!!!    0  Linha:   157  // fim 
+
+!!! Número de linhas lidas:         157
+!!! Número de casos de teste:        35
+!!! Número comandos corretos:        43
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0
