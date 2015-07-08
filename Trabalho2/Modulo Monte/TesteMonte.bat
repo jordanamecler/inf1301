@@ -1,0 +1,1 @@
+TRAB2-5.exe     /s"TesteMonte.script"        /l"LogMonte.log"

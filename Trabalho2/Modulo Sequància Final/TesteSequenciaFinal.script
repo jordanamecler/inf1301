@@ -1,0 +1,20 @@
+// Script:    TesteSequenciaFinal.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Testar o módulo Sequencia final.
+//
+
+==Preencher sequencia inexistente
+=preencher 2
+
+==Criar sequencia
+=criar 0
+
+==Preencher sequencia com 3 cartas previamente escolhidas
+=preencher 0
+
+==Destruir sequencia
+=destruir 0
+
+// fim

@@ -1,0 +1,1 @@
+TRAB2-2.exe     /s"TesteCarta.script"        /l"LogCarta.log"

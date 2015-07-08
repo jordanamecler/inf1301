@@ -1,0 +1,26 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-7.exe
+!!!      Script de teste:     TesteSequenciaFinal.script
+
+!!!    0  Linha:     1  // Script:    TesteSequenciaFinal.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein 
+!!!    0  Linha:     3  //			  Jordana Mecler 
+!!!    0  Linha:     4  //			  Leonardo Wajnsztok 
+!!!    0  Linha:     5  // Propósito: Testar o módulo Sequencia final. 
+!!!    0  Linha:     6  // 
+    8  ==Preencher sequencia inexistente
+   11  ==Criar sequencia
+   14  ==Preencher sequencia com 3 cartas previamente escolhidas
+   17  ==Destruir sequencia
+!!!    0  Linha:    20  // fim 
+
+!!! Número de linhas lidas:          20
+!!! Número de casos de teste:         4
+!!! Número comandos corretos:         4
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

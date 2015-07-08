@@ -1,0 +1,1 @@
+TRAB2-4.exe     /s"TesteBaralho.script"        /l"LogBaralho.log"

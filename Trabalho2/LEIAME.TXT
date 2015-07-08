@@ -1,0 +1,127 @@
+﻿Autores:	Eric Grinstein
+		Jordana Mecler
+		Leonardo Wajnsztok
+
+
+Data:		26/04/2015
+
+
+Descrição do programa:
+
+O programa desenvolvido se trata dos módulos necessários 
+para criar um jogo de Paciência Spider.
+O jogo irá rodar em ambiente Windows e será jogado pelo CMD.
+O trabalho foi feito divido em diversos módulos, como aprendemos
+em INF1301. 
+Paciência Spider é um jogo de cartas que usa 2 baralhos, podendo ser
+jogado com 1, 2, 3 ou 4 naipes (dificuldades).
+
+----------------------------------------------------------------
+
+COMPOSIÇÃO:
+
+Arquivos Fonte:
+
+*obs.: Os módulos PRINCIPAL e LISTA_PRINCIPAL só serão desenvolvidos à posteriore.
+
+1.1: Módulos de implementação:    	 LISTA.C
+				         TESTLIS.C
+   				         CARTA.C
+   				         TESTCAR.C
+   				         PILHA_DE_CARTAS.C
+   				         TESTPIL.C
+   				         BARALHO.C
+   				         TESTBAR.C
+   				         MONTE.C
+   				         TESTMON.C
+   				         SEQJOGO.C
+   				         TESTSEQJ.C
+   				         SEQFIM.C
+   				         TESTSEQFIM.C
+
+1.2: Módulos de definição:	         LISTA.H
+				         CARTA.H
+   				         PILHA_DE_CARTAS.H
+   				         BARALHO.H
+   				         MONTE.H
+   				         SEQJOGO.H
+   				         SEQFIM.H
+   				         GENERICO.H
+   				         LERPARM.H
+   				         TST_ESPC.H
+
+
+
+
+Arcabouço de Teste:                    ArcaboucoTeste.lib
+ 
+
+
+Arquivos de Script:                    TesteLista.script
+   				       TesteCarta.script
+   				       TestePilhaDeCartas.script
+   				       TesteBaralho.script
+   				       TesteMonte.script
+   				       TesteSequenciaJogo.script
+   				       TesteSequenciaFinal.script
+
+
+Arquivos de Log:                       LogLista.log
+   				       LogCarta.log
+   				       LogPilhaDeCartas.log
+   				       LogBaralho.log
+   				       LogMonte.log
+   				       LogSequenciaJogo.log
+   				       LogSequenciaFinal.log
+
+
+Arquivos Executáveis:			TRAB2-1.exe referente ao módulo LISTA
+					TRAB2-2.exe referente ao módulo CARTA
+					TRAB2-3.exe referente ao módulo PILHA_DE_CARTAS
+					TRAB2-4.exe referente ao módulo BARALHO
+					TRAB2-5.exe referente ao módulo MONTE
+					TRAB2-6.exe referente ao módulo SEQJOGO
+					TRAB2-7.exe referente ao módulo SEQFIM
+
+
+
+Arquivos Bat:                         TestaLista.bat
+   				      TestaCarta.bat
+   				      TestaPilhaDeCartas.bat
+   				      TestaBaralho.bat
+   				      TestaMonte.bat
+   				      TestaSequenciaJogo.bat
+   				      TestaSequenciaFinal.bat
+				      TestaTudo.bat
+
+
+Relatórios:                           “RELATORIO-Eric.txt”
+   				      “RELATORIO-Jordana.txt“
+   				      “RELATORIO-Leonardo.txt”
+
+
+Arquitetura dos Módulos:       	      “Arquitetura.pdf"
+
+
+Especificação de Requisitos:          "Especificação de Requisitos.pdf"
+
+
+Modelo estrutural e exemplo: 	      "Exemplo e Modelo Estrutural.pdf"
+
+   
+----------------------------------------------------------------
+
+Modo de uso:
+
+1. Pelos arquivos .bat:
+
+   - Execute os .bat e os arquivos .log serão gerados na devida pasta.
+
+   
+
+
+
+2. Pelo CMD:
+   - Vá até a pasta do projeto onde está o arquivo executável e copie seu endereço. Digite os comandos do CMD “cd ‘endereço’”
+		        “‘executável.exe’ /s’script.script’ /l’log.log’”
+    O log estará na devida pasta.

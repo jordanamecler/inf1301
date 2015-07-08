@@ -1,0 +1,23 @@
+﻿Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+01/04  		 1                  	  exemplo e modelo         realização do exemplo e modelo estrutural
+ 
+04/04  		 1                  	  arquitetura       	     realização da arquitetura
+
+10/04   	 1                      funções de acesso         definição das funções de acesso
+
+15/04  		 1.5                   revisão e correção         correção das funções de acesso
+
+17/04  		 2                   	  codificar                         codificação dos módulos de carta
+
+20/04  		 1	              testes		     testes de carta
+
+21/04		 2	         	  codificar		     codificação dos módulos de sequência final
+	
+22/04	  	 1	              testes	   	     testes de sequência final
+
+24/04		 1	             correções		     correções dos módulos de carta e sequência final
+
+27/04		 0.5		     assertivas		     realização das assertivas de entrada e saída
+
+27/04		 1		     correções		     correções de possíveis erros

@@ -1,0 +1,19 @@
+﻿Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+01/04  		 1                  	  exemplo e modelo         realização do exemplo e modelo estrutural
+ 
+04/04  		 1                  	  arquitetura       	     realização da arquitetura
+
+10/04   	 1                      funções de acesso         definição das funções de acesso
+
+15/04  		 1.5                   revisão e correção         correção das funções de acesso
+
+24/04  		 1                   	  codificar                         codificação dos módulos de monte
+
+24/04  		 1	              testes		     testes de monte
+
+25/04		 3	         	  codificar		     codificação dos módulos de sequência de jogo
+	
+26/04	  	 2	              testes	   	     testes de sequência de jogo
+
+27/04		 1	             correções		     correções dos módulos de monte e sequência de jogo

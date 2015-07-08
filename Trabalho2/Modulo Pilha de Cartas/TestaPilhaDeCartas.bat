@@ -1,0 +1,1 @@
+TRAB2-3.exe     /s"TestePilhaDeCartas.script"        /l"LogPilhaDeCartas.log"

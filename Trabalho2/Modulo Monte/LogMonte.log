@@ -1,0 +1,28 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-5.exe
+!!!      Script de teste:     TesteMonte.script
+
+!!!    0  Linha:     1  // Script:    TesteMonte.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein 
+!!!    0  Linha:     3  //			  Jordana Mecler 
+!!!    0  Linha:     4  //			  Leonardo Wajnsztok 
+!!!    0  Linha:     5  // Propósito: Testar o módulo Monte. 
+!!!    0  Linha:     6  // 
+    9  == Criar monte com 3 cartas previamente escolhidas
+   12  == Pop (está no topo da pilha)
+   15  == Pop
+   18  == Pop
+   21  == Pop (pilha vazia)
+   24  == Destruir monte
+!!!    0  Linha:    28  // fim 
+
+!!! Número de linhas lidas:          28
+!!! Número de casos de teste:         6
+!!! Número comandos corretos:         6
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

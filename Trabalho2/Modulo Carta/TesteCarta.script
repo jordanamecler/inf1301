@@ -1,0 +1,53 @@
+// Script: TesteCarta.script
+// Autor: Eric Grinstein
+// Jordana Mecler
+// Leonardo Wajnsztok
+// Propósito: Testar o módulo Carta.
+//
+
+==Preencher carta inexistente
+=preenche 'o' 3 1
+
+==Obter naipe da carta inexistente
+=obternaipe 1
+
+==Obter valor da carta inexistente
+=obtervalor 1
+
+==Imprimir carta inexistente
+=imprime 1
+
+== Criar carta
+=criar 0
+
+== Obter naipe da carta vazia
+=obternaipe 3
+
+== Obter valor da carta vazia
+=obtervalor 4
+
+==Imprimir carta vazia
+=imprime 3
+
+== Preencher carta com naipe invalido
+=preenche 'r' 2 3
+
+== Preencher carta com valor invalido
+=preenche 'c' 14 4
+
+== Preencher carta com naipe Copas e valor A
+=preenche 'c' 1 0
+
+==Obter naipe da carta
+=obternaipe 0
+
+==Obter valor da carta
+=obtervalor 0
+
+==Imprimir carta
+=imprime 0
+
+==Excluir carta
+=excluir 0
+
+// fim

@@ -1,0 +1,1 @@
+TRAB2-7.exe     /s"TesteSequenciaFinal.script"        /l"LogSequenciaFinal.log"

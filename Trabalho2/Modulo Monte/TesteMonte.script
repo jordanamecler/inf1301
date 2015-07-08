@@ -1,0 +1,28 @@
+// Script:    TesteMonte.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Testar o módulo Monte.
+//
+
+
+== Criar monte com 3 cartas previamente escolhidas
+=criar 0
+
+== Pop (está no topo da pilha)
+=pop 0
+
+== Pop
+=pop 0
+
+== Pop
+=pop 0
+
+== Pop (pilha vazia)
+=pop 1
+
+== Destruir monte
+=destruir 0
+
+
+// fim

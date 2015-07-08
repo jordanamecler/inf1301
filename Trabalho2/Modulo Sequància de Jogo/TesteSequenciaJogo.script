@@ -1,0 +1,107 @@
+// Script:    TesteMonte.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Testar o módulo Monte.
+//
+
+
+== Push carta da seq 0 (nao existe ainda)
+=pushCarta 'e' 12 0 1
+
+== Pop carta da seq 0 (nao existe ainda)
+=popCarta 0 1
+
+== Obter pilha da seq 0 (nao existe ainda)
+=obterPilha 0 1
+
+== Verificar Completa da seq 0 (nao existe ainda)
+=verificarCompleta 0 1
+
+
+== Criar incompleta na pos 0 (começa apenas com um k de copas)
+=criarIncompleta 0 0
+
+== Criar completa na pos 1
+=criarCompleta 1 0
+
+== Verificar primeira (incompleta)
+=verificarCompleta 0 4
+
+== Verificar segunda (completa)
+=verificarCompleta 1 0
+
+== Obter completa (não pode, pois apenas 1 carta esta virada e precisa de pelo menos 13)
+=obterPilha 0 3
+
+== Obter incompleta
+=obterPilha 1 3
+
+== Pop carta da seq 0 (esvazia a sequencia)
+=popCarta 0 0
+
+== Push carta sequencia 0 na sequencia vazia, entao ok
+=pushCarta 'o' 5 0 0
+
+== Pop carta da seq 0, esvazia de novo
+=popCarta 0 0
+
+== Pop carta da seq 0, mas nao tem carta
+=popCarta 0 1
+
+== Push carta sequencia pos 1
+=pushCarta 'c' 13 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 12 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 11 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 10 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 9 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 8 0 0 
+== Push carta sequencia pos 1
+=pushCarta 'c' 7 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 6 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 5 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 4 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 3 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 2 0 0
+== Push carta sequencia pos 1
+=pushCarta 'c' 1 0 0
+
+== Push carta sequencia pos 1, porém fora da sequência, mesmo naipe
+=pushCarta 'c' 7 0 4
+
+== Verificar primeira (completa)
+=verificarCompleta 0 0
+
+== Obter completa (agora pode, pois as cartas estão todas viradas)
+=obterPilha 0 0
+
+== Push carta sequencia 0
+=pushCarta 'e' 12 0 0
+
+== Push carta sequencia 0, mesmo naipe, mas fora de sequencia (nao ok)
+=pushCarta 'e' 13 0 4
+
+== Push carta sequencia 0, naipe diferente, mas na sequencia (ok)
+=pushCarta 'p' 11 0 0
+
+== Pop carta da seq 0 
+=popCarta 0 0
+
+== Destruir 0
+=destruir 0 0
+
+== Destruir 1
+=destruir 1 0
+
+
+// fim

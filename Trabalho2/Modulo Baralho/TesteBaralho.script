@@ -1,0 +1,45 @@
+// Script:    TesteBaralho.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Testar o módulo 
+//			  Baralho de Cartas.
+//
+
+==Criar baralho numero 0
+=criar      0 0
+
+==Criar baralho numero 1
+=criar      1 0
+
+== Pop Ás de paus, baralho vazio
+=pop 0 1
+
+==Preencher baralho com 1 naipe
+=preencher 0 1 0
+
+==Preencher baralho com 1 naipe
+=preencher 1 1 0
+
+==Pop K de paus baralho 0
+=pop 0 0
+
+==Pop Q de paus baralho 0
+=pop 0 0
+
+==Embaralha baralho 1
+=embaralhar 1 0
+
+==Pop K de paus baralho 1
+=pop 1 0
+
+==Pop Q de paus baralho 1
+=pop 1 0
+
+==Destruir baralho 0
+=destruir 0 0
+
+==Destruir baralho 1
+=destruir 1 0
+
+// fim

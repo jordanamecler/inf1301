@@ -1,0 +1,37 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB2-2.exe
+!!!      Script de teste:     TesteCarta.script
+
+!!!    0  Linha:     1  // Script: TesteCarta.script 
+!!!    0  Linha:     2  // Autor: Eric Grinstein 
+!!!    0  Linha:     3  // Jordana Mecler 
+!!!    0  Linha:     4  // Leonardo Wajnsztok 
+!!!    0  Linha:     5  // Propósito: Testar o módulo Carta. 
+!!!    0  Linha:     6  // 
+    8  ==Preencher carta inexistente
+   11  ==Obter naipe da carta inexistente
+   14  ==Obter valor da carta inexistente
+   17  ==Imprimir carta inexistente
+   20  == Criar carta
+   23  == Obter naipe da carta vazia
+   26  == Obter valor da carta vazia
+   29  ==Imprimir carta vazia
+   32  == Preencher carta com naipe invalido
+   35  == Preencher carta com valor invalido
+   38  == Preencher carta com naipe Copas e valor A
+   41  ==Obter naipe da carta
+   44  ==Obter valor da carta
+   47  ==Imprimir carta
+   50  ==Excluir carta
+!!!    0  Linha:    53  // fim 
+
+!!! Número de linhas lidas:          53
+!!! Número de casos de teste:        15
+!!! Número comandos corretos:        15
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

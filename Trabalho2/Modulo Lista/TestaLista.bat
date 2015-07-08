@@ -1,0 +1,1 @@
+TRAB2-1.exe     /s"TesteLista.script"        /l"LogLista.log"

@@ -1,0 +1,1 @@
+TRAB2-6.exe     /s"TesteSequenciaJogo.script"        /l"LogSequenciaJogo.log"
