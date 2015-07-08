@@ -1,0 +1,49 @@
+// Script:    TestePilhaDeCartas.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Testar o módulo 
+//			  Pilha de Cartas.
+//
+
+== Criar pilha numero 0
+=criar      0 0
+
+== Pop Ás de paus, pilha vazia.
+=pop 0 'p' 1 1
+
+== Push Ás de paus na pilha 0
+=push 0 'p' 1 0
+
+== Ver Ás de paus na pilha 0
+=ver 0 0 'p' 1 0 
+
+== Pop Ás de Paus da pilha 0
+=pop 0 'p' 1 0
+
+== Pop Ás de paus, pilha vazia.
+=pop 0 'p' 1 1
+
+== Ver carta, pilha vazia.
+=ver 0 0 'c' 5 1
+
+== Destruir pilha numero 0
+=destruir   0 0
+
+== Criar pilha número 1
+=criar 1 0
+
+== Criar pilha número 2
+=criar 2 0
+
+== Destruir pilha 2
+=destruir 2 0
+
+== Inserir K de ouros na pilha 1
+=push 1 'o' 13 0
+
+== Destruir pilha 1
+=destruir 1 0
+
+
+// fim

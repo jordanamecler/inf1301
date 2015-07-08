@@ -1,0 +1,10 @@
+erro-no-corrente-destacado
+ok-no-corrente-encadeado
+ok-origem-consistente
+ok-tipo-da-pilha-e-o-mesmo-dos-seus-nos
+ok-pilha-correta-quando-qtdNos-maior-0
+ok-sucessor-nao-nulo
+ok-sucessor-sem-lixo
+ok-antecessor-nao-nulo
+ok-antecessor-sem-lixo
+ok-carta-corrente-consistente

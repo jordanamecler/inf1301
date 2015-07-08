@@ -1,0 +1,89 @@
+Autores:	Eric Grinstein
+		Jordana Mecler
+		Leonardo Wajnsztok
+
+
+Data:		02/07/2015
+
+
+Descrição do programa:
+
+O programa desenvolvido se trata da instrumentação do módulo
+PILHA_DE_CARTAS. Para isto, utilizamos a verificação da estrutura
+e deturpamos a mesma para garantir que a verificação estava
+correta. Foi utilizada também a LEA, para garantir que não
+haviam espaços ainda alocados ao final do programa.
+
+----------------------------------------------------------------
+
+COMPOSIÇÃO:
+
+Arquivos Fonte:
+
+1.1: Módulos de implementação:    	 LISTA.C
+   				         CARTA.C
+   				         PILHA_DE_CARTAS.C
+   				         TESTPIL.C
+
+1.2: Módulos de definição:	         LISTA.H
+				         CARTA.H
+   				         PILHA_DE_CARTAS.H
+   				         CESPDIN.H
+   				         CONTA.H
+   				         GENERICO.H
+   				         LERPARM.H
+   				         TST_ESPC.H
+
+
+
+
+Arcabouço de Teste:                 ArcaboucoTeste.lib
+ 
+
+
+Arquivos de Script:  			 TestePilhaDeCartasOriginal.script
+                     			 TestePilhaDeCartas.script
+   				         TestePilhaDeCartas-destacaNo.script
+
+
+Arquivos de Log:                       LogPilhaDeCartasDebug.log
+   				       LogPilhaDeCartas-destacaNoDebug.log
+					LogPilhaDeCartasRelease.log
+
+
+Arquivos Executáveis:			TRAB4-1.exe
+					TRAB4-2.exe
+					
+
+
+Arquivos Bat:                         TestePilhaDeCartasDebug.bat
+					TestePilhaDeCartas-destacaNoDebug.bat
+					TestaPilhaDeCartasRelease.bat
+
+
+Relatórios:                           “RELATORIO-Eric.txt”
+   				      “RELATORIO-Jordana.txt“
+   				      “RELATORIO-Leonardo.txt”
+
+
+Modelo da estrutura autoverificável: "Modelo Pilha.pdf"
+
+Comandos de teste:  "LEIA-ME-VERIFICACAO.txt"
+
+   
+----------------------------------------------------------------
+
+Modo de uso:
+
+1. Pelos arquivos .bat:
+
+   - Execute os .bat e os arquivos .log serão gerados na devida pasta.
+
+   
+
+
+
+2. Pelo CMD:
+   - Vá até a pasta do projeto onde está o arquivo executável e copie seu endereço. Digite os comandos do CMD “cd ‘endereço’”
+		        “‘executável.exe’ /s’script.script’ /l’log.log’”
+    O log estará na devida pasta.

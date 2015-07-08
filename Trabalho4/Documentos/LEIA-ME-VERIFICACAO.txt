@@ -1,0 +1,24 @@
+Como testar a função de verificação
+===================================
+
+O comando =deturpar pode ser utilizado no script de teste para 
+10 tipos de deturpação diferentes. O comando recebe como parâmetros 
+a pilha (um número de 0 a 9) a ser deturpada, e um tipo de deturpação (de 1 a 10)
+a ser executado. São eles
+
+=deturpar ação
+ação = 1 elimina o elemento corrente da pilha escolhida.
+ação = 2 atribui NULL ao ponteiro para um nó sucessor.
+ação = 3 atribui NULL ao ponteiro para um nó predecessor.
+ação = 4 atribui lixo ao ponteiro para a referência a um nó sucessor
+ação = 5 atribui lixo ao ponteiro para a referência a um nó predecessor.
+ação = 6 atribui NULL ao ponteiro para o conteúdo do nó.
+ação = 7 altera o tipo de estrutura apontado no nó
+ação = 8 destaca nó da pilha sem liberá-lo com free
+ação = 9 atribui NULL ao ponteiro corrente
+ação = 10 atribui NULL a um ponteiro de origem
+
+Por exemplo a ação =deturpar 2 1 eliminará o elemento corrente da pilha número 2.
+Devemos verificar (utilizando o comando =verificar 2 1) que a pilha 2 contém 1 erro em sua 
+estrutura. Se deturparmos novamente utilizando o comando =deturpar 2 10 (atribuindo NULL a origem da pilha),
+verificaremos (=verificar 2 2) 2 erros na estrutura da pilha.

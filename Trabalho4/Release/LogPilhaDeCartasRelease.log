@@ -1,0 +1,36 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB4-2.exe
+!!!      Script de teste:     TestePilhaDeCartasOriginal.script
+
+!!!    0  Linha:     1  // Script:    TestePilhaDeCartas.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein 
+!!!    0  Linha:     3  //			  Jordana Mecler 
+!!!    0  Linha:     4  //			  Leonardo Wajnsztok 
+!!!    0  Linha:     5  // Propósito: Testar o módulo 
+!!!    0  Linha:     6  //			  Pilha de Cartas. 
+!!!    0  Linha:     7  // 
+    9  == Criar pilha numero 0
+   12  == Pop Ás de paus, pilha vazia.
+   15  == Push Ás de paus na pilha 0
+   18  == Ver Ás de paus na pilha 0
+   21  == Pop Ás de Paus da pilha 0
+   24  == Pop Ás de paus, pilha vazia.
+   27  == Ver carta, pilha vazia.
+   30  == Destruir pilha numero 0
+   33  == Criar pilha número 1
+   36  == Criar pilha número 2
+   39  == Destruir pilha 2
+   42  == Inserir K de ouros na pilha 1
+   45  == Destruir pilha 1
+!!!    0  Linha:    49  // fim 
+
+!!! Número de linhas lidas:          49
+!!! Número de casos de teste:        13
+!!! Número comandos corretos:        10
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

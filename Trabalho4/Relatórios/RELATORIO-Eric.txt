@@ -1,0 +1,11 @@
+Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+20/06  		 2                     	Estudar                 Estudo dos módulos conta e cespdin
+ 
+26/06      2                      codificar               codificacao da verificacao
+
+01/07  		 1.5                 	  codificar               criacao de script de deturpacao
+
+03/07      2                      correcao                correcao de erros
+
+03/07  		 1                   	  documentar              Criacao de leia-me

@@ -1,0 +1,39 @@
+// Script:    TestePilhaDeCartas.script
+// Autor:     Eric Grinstein
+//			  Jordana Mecler
+//			  Leonardo Wajnsztok
+// Propósito: Deturpar o módulo 
+//			  Pilha de Cartas.
+//
+
+== Inicializar contadores
+=inicializarcontadores  ""
+=lercontadores          "Contadores-destacaNo"
+=iniciarcontagem
+
+== Deturpacao tipo 2: Alterar sucessor na pilha
+=criar  0 0
+
+=push 	0 'p' 1 0
+=push   0 'o' 2 0
+=push   0 'c' 3 0
+
+=verificar 0 0
+
+=deturpar 0 8
+=verificar 0 1
+
+== Destruir pilha numero 0
+=destruir   0 0
+
+== Gravar contadores
+=registraracumulador "acumulador-destacaNo"
+
+== Terminar controlar contadores
+=pararcontagem
+=verificarcontagens    0
+
+== Terminar contagem
+=terminarcontadores
+
+// fim

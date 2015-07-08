@@ -1,0 +1,14 @@
+Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+17/06  		 1                     	 modelo                realização do modelo da estrutura autoverificavel
+
+26/06   	 1                     verificacao             inicio da funcao de verificacao
+
+26/06  		 0.5                        lea                 inicio da utilizacao das funcoes do cespdin
+
+26/06     	 2                        conta                inicio da utilizacao das funcoes do conta
+
+03/07  		 4                   	  codificar               finalizacao da funcao de verificacao
+
+03/07     	 3                      correcao                correcao de erros
+	
