@@ -1,0 +1,58 @@
+
+!!! Inicio dos testes
+!!!      Construto sob teste: TRAB3-1.exe
+!!!      Script de teste:     TesteSequenciaJogo.script
+
+!!!    0  Linha:     1  // Script:    TesteMonte.script 
+!!!    0  Linha:     2  // Autor:     Eric Grinstein 
+!!!    0  Linha:     3  //			  Jordana Mecler 
+!!!    0  Linha:     4  //			  Leonardo Wajnsztok 
+!!!    0  Linha:     5  // Propósito: Testar o módulo Monte. 
+!!!    0  Linha:     6  // 
+    9  == Push carta da seq 0 (nao existe ainda)
+   12  == Pop carta da seq 0 (nao existe ainda)
+   15  == Obter pilha da seq 0 (nao existe ainda)
+   18  == Verificar Completa da seq 0 (nao existe ainda)
+   22  == Criar incompleta na pos 0 (começa apenas com um k de copas)
+   25  == Criar completa na pos 1
+   28  == Verificar primeira (incompleta)
+   31  == Verificar segunda (completa)
+   34  == Obter completa (não pode, pois apenas 1 carta esta virada e precisa de pelo menos 13)
+   37  == Obter incompleta
+   40  == Pop carta da seq 0 (esvazia a sequencia)
+   43  == Push carta sequencia 0 na sequencia vazia, entao ok
+   46  == Pop carta da seq 0, esvazia de novo
+   49  == Pop carta da seq 0, mas nao tem carta
+   52  == Push carta sequencia pos 1
+   54  == Push carta sequencia pos 1
+   56  == Push carta sequencia pos 1
+   58  == Push carta sequencia pos 1
+   60  == Push carta sequencia pos 1
+   62  == Push carta sequencia pos 1
+   64  == Push carta sequencia pos 1
+   66  == Push carta sequencia pos 1
+   68  == Push carta sequencia pos 1
+   70  == Push carta sequencia pos 1
+   72  == Push carta sequencia pos 1
+   74  == Push carta sequencia pos 1
+   76  == Push carta sequencia pos 1
+   79  == Push carta sequencia pos 1, porém fora da sequência, mesmo naipe
+   82  == Verificar primeira (completa)
+   85  == Obter completa (agora pode, pois as cartas estão todas viradas)
+   88  == Push carta sequencia 0
+   91  == Push carta sequencia 0, mesmo naipe, mas fora de sequencia (nao ok)
+   94  == Push carta sequencia 0, naipe diferente, mas na sequencia (ok)
+   97  == Pop carta da seq 0
+  100  == Destruir 0
+  103  == Destruir 1
+!!!    0  Linha:   107  // fim 
+
+!!! Número de linhas lidas:         107
+!!! Número de casos de teste:        36
+!!! Número comandos corretos:        36
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

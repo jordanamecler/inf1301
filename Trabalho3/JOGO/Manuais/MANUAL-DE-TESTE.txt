@@ -1,0 +1,43 @@
+TESTE MANUAL DAS FUNCIONALIDADES DO JOGO
+========================================
+
+Entre parênteses após o comando está a funcionalidade testada 
+no passo.
+
+1. Execute o arquivo TRAB3-2.exe 
+2. Escreva 'n' e tecle enter em seguida (Iniciar novo Jogo)
+3. Escreva 4 e tecle enter em seguida (Escolher 4 naipes)
+4. Aperte 'm' e tecle enter em seguida (liberar um novo monte)
+5. Aperte 's' e tecle enter em seguida (salvar o jogo)
+5.1. Escreva 'SAV1.txt' (sem aspas) e aperte enter em seguida.
+6. Execute a aplicação novamente. Aperte 'c' seguido de enter (carregar jogo salvo)
+6.1. Escreva 'SAV1.txt' (sem aspas) e aperte enter. 
+7. Aperte 'q' e tecle enter em seguida. (sair do jogo)
+8. Execute novamente a aplicação. Desta vez, carregue o arquivo SAV-TESTE.txt
+8.1. Para isso, aperte a tecla 'c' e tecle enter.
+8.2. Em seguida, escreva 'SAV-TESTE.txt' e aperte enter
+9. Tente mover a sequencia 3c 2c Ae (Mover sequencia heterogenea, sem sucesso)
+9.1. Para isso, aperte 't' e enter em seguida.
+9.2. Em seguida, escreva 5 1 3 e aperte enter em seguida 
+10. Tente mover 2e para a sequencia 1 (mover carta não sequencial, sem sucesso)
+10.1. Aperte 't' seguido de enter.
+10.2. Escreva 6 1 1 e tecle enter em seguida
+11. Mover Ae para a sequencia 6 (mover carta corretamente)
+11.1. Aperte 't' seguido de enter. 
+11.2. Escreva 5 6 1 e tecle enter em seguida
+12. Mover sequencia em 6 para sequencia em 1 (completar sequencia) 
+12.1. Aperte 't' seguido de enter.
+12.2. Escreva 6 3 2 e tecle enter em seguida
+13. Tentar mover toda a sequencia 1 para a sequencia 2 (tentar mover carta oculta, sem sucesso)
+13.1. Aperte 't' seguido de enter. 
+13.2. Escreva 1 2 11 e tecle enter em seguida
+14. Mover sequencia visivel em 1 para sequencia vazia 2 (liberar carta oculta) (mover para sequencia vazia)
+14.1. Aperte 't' seguido de enter. 
+14.2. Escreva 1 2 10 e tecle enter em seguida
+15.Mover Ac para sequencia 5
+15.1. Aperte 't' seguido de enter. 
+15.2. Escreva 1 5 1 e tecle enter em seguida
+16. Mover a sequencia 5 para 2 (terminar jogo)
+16.1. Aperte 't' seguido de enter. 
+16.2. Escreva 5 2 3 e tecle enter em seguida
+

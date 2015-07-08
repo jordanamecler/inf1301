@@ -1,0 +1,112 @@
+Autores:	Eric Grinstein
+		Jordana Mecler
+		Leonardo Wajnsztok
+
+
+Data:		29/05/2015
+
+
+Descrição do programa:
+
+O programa desenvolvido se trata de um jogo de Paciência Spider.
+O jogo irá rodar em ambiente Windows e será jogado pelo CMD.
+O trabalho foi feito divido em diversos módulos, como aprendemos
+em INF1301. 
+Paciência Spider é um jogo de cartas que usa 2 baralhos, podendo ser
+jogado com 1, 2, 3 ou 4 naipes (dificuldades).
+É possível salvar o jogo no estado atual e carregar um jogo salvo.
+
+----------------------------------------------------------------
+
+COMPOSIÇÃO:
+
+Arquivos Fonte:
+
+1.1: Módulos de implementação:    	 PRINCIPAL.C
+					 LISTA.C
+				         TESTLIS.C
+   				         CARTA.C
+   				         TESTCAR.C
+   				         PILHA_DE_CARTAS.C
+   				         TESTPIL.C
+   				         BARALHO.C
+   				         TESTBAR.C
+   				         MONTE.C
+   				         TESTMON.C
+   				         SEQJOGO.C
+   				         TESTSEQJ.C
+   				         SEQFIM.C
+   				         TESTSEQFIM.C
+
+1.2: Módulos de definição:	         LISTA.H
+				         CARTA.H
+   				         PILHA_DE_CARTAS.H
+   				         BARALHO.H
+   				         MONTE.H
+   				         SEQJOGO.H
+   				         SEQFIM.H
+   				         GENERICO.H
+   				         LERPARM.H
+   				         TST_ESPC.H
+
+
+
+
+Arcabouço de Teste:                    ArcaboucoTeste.lib
+ 
+
+
+Arquivos de Script:                    TesteSequenciaJogo.script
+
+
+Arquivos de Log:                       LogSequenciaJogo.log
+
+Arquivos Executáveis:			TRAB3-1.exe referente ao módulo SEQJOGO
+					TRAB3-2.exe referente ao JOGO
+
+
+
+Arquivos Bat:                         TestaSequenciaJogo.bat
+
+
+Relatórios:                           “RELATORIO-Eric.txt”
+   				      “RELATORIO-Jordana.txt“
+   				      “RELATORIO-Leonardo.txt”
+
+
+Arquitetura dos Módulos:       	      “Arquitetura.pdf"
+
+
+Especificação de Requisitos:          "Especificacao de Requisitos.pdf"
+
+
+Modelo estrutural e exemplo: 	      "Exemplo e Modelo Estrutural.pdf"
+
+Manual de usuário:		      "JOGO/Manuais/MANUAL-DE-USUARIO.txt"
+
+Manual de teste:		      "JOGO/Manuais/MANUAL-DE-TESTE.txt"
+   
+----------------------------------------------------------------
+
+Modo de uso para testes:
+
+1. Pelos arquivos .bat:
+
+   - Execute os .bat e os arquivos .log serão gerados na devida pasta.
+
+   
+
+
+
+2. Pelo CMD:
+   - Vá até a pasta do projeto onde está o arquivo executável e copie seu endereço. Digite os comandos do CMD “cd ‘endereço’”
+		        “‘executável.exe’ /s’script.script’ /l’log.log’”
+    O log estará na devida pasta.
+
+Modo de uso do jogo:
+    - Clique duas vezes no arquivo executável.
+
+Como Realizar o teste manual:
+	Abra o arquivo MANUAL-DE-TESTE.txt e siga as instruções dadas no mesmo.
+
+

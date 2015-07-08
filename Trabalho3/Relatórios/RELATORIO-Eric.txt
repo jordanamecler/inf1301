@@ -1,0 +1,9 @@
+Data   	 Horas Trabalhadas       Tipo Tarefa         Descrição da Tarefa Realizada
+
+23/05		 2                codificar         codificacao do modulo principal 
+
+25/05		 2                 codificar         codificacao do modulo principal 
+	
+29/05	  	 2	              testes	   	     criacao do relatorio
+
+29/05		 1	             documentacao	     manual de jogo

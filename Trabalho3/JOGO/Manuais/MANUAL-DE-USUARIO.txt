@@ -1,0 +1,38 @@
+Manual do Jogo paciência spider
+===============================
+
+1. Como executar o jogo?
+1.1 Execute o(clique duas vezes no)  arquivo TRAB3-2.exe.
+
+2. Como criar um novo jogo
+2.1 Após iniciar a execução do jogo, escreva 'n' seguido de 'enter'.
+2.2 Após isso, você será prontificado a escolher o número de naipes com o qual quer jogar. Escreva o 
+	número 1,2,3 ou 4 e, em seguida, aperte 'enter'.
+	
+3. Como carregar um jogo salvo
+3.1 Após iniciar a execução do programa, escreva 'c' seguido de 'enter'. 
+3.2 Após isso, você será prontificado a escolher o nome do arquivo préviamente 
+	salvo a ser carregado. Escreva o nome completo do arquivo (incluindo sua extensão)
+	e tecle 'enter' em seguida. Note que o caminho do arquivo é referente a pasta em que o jogo 
+	está sendo executado. 
+
+4. Como salvar um jogo em andamento
+4.1 Com um jogo em andamento, aperte a tecla 's' seguido de 'enter'.
+4.2 Você será prontificado a escolher um nome para o arquivo a ser salvo. Escreva o nome
+	(por exemplo JOGO1.txt) e aperte 'enter' em seguida. Seu progresso será guardado no jogo e o programa 
+	terminará em seguida.
+	
+5. Ações do jogo
+5.1 Movimentação entre sequencias
+5.1.1 Para mover cartas de uma sequencia a outra, escreva 't' em um jogo em execução, seguido de 'enter'
+5.1.2 Você será prontificado a escolher uma sequencia de origem (de onde sairão as cartas), de destino (onde	
+		as cartas retiradas da origem serão adicionadas) e o número de cartas que sairão da origem
+		(e entrarão na de destino). Por exemplo: se quiser remover 3 cartas da sequencia 1 para a 2, 
+		escreva 1 2 3 e em seguida tecle 'enter'.
+5.2 Liberação de um novo monte
+5.2.1 Em um jogo em execução, aperte a tecla 'm' seguido de 'enter'. Caso haja um monte a ser liberado,
+		será adicionada uma carta ao topo de cada sequencia.
+
+6. Como sair de um jogo em execução
+6.1 Aperte a tecla 'q' seguido de 'enter'.
+		

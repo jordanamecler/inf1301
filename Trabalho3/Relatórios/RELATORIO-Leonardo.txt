@@ -1,0 +1,9 @@
+Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+15/05  		 2                  	  codificar              modulo principal
+ 
+19/05  		 2                  	  codificar              modulo principal
+
+21/05   	 2                        codificar              modulo principal
+
+27/05  		 2	                  codificar		 carregar jogo

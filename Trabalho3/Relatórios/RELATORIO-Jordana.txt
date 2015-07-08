@@ -1,0 +1,15 @@
+Data   	 Horas Trabalhadas       Tipo Tarefa                     Descrição da Tarefa Realizada
+
+15/05  		 2                  	  codificar              modulo principal
+ 
+19/05  		 2                  	  codificar              modulo principal
+
+21/05   	 2                        codificar              modulo principal
+
+27/05  		 2                   	  codificar              salvar jogo
+
+27/05  		 2	                  codificar		 carregar jogo
+
+28/05		 1	                  ponto extra	  argumentacao de corretude
+
+29/05		 1		          correcoes              documentacoes
